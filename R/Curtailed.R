@@ -2,7 +2,7 @@
 #' Curtailed Average Sample Number
 #' 
 #' Computes the average sample number for a curtailed inspection plan for
-#' single sampling plans. Functionality is currrently available for only the
+#' single sampling plans. Functionality is currently available for only the
 #' binomial distribution.
 #' 
 #' 

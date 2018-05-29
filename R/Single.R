@@ -8,13 +8,13 @@
 #' @param N the lot size
 #' @param n the sample size
 #' @param Ac the acceptance number, being the maximum allowable number of
-#' nonconforming units or nonconformities
+#' non-conforming units or non-conformities
 #' @param p a vector of values for the possible fraction of product that is
-#' nonconforming
+#' non-conforming
 #' @param Plots logical to request generation of the four plots
 #' @author Raj Govindaraju with minor editing by Jonathan Godfrey
 #' @references Dodge, H.F. and Romig, H.G. (1959) \dQuote{Sampling Inspection
-#' Tables, Single and Double Sampling}, 2nd edition, John Wiley and Sons, New
+#' Tables, Single and Double Sampling}, Second edition, John Wiley and Sons, New
 #' York.
 #' @examples
 #' 
@@ -82,7 +82,7 @@ return(results)
 #' @param beta consumers' risk
 #' @author Raj Govindaraju with minor editing by Jonathan Godfrey
 #' @references Dodge, H.F. and Romig, H.G. (1959) \dQuote{Sampling Inspection
-#' Tables, Single and Double Sampling}, 2nd edition, John Wiley and Sons, New
+#' Tables, Single and Double Sampling}, Second edition, John Wiley and Sons, New
 #' York.
 #' @examples
 #' 
