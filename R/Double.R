@@ -23,6 +23,7 @@
 #' DSPlanPoisson(1000, 10, 10, 0,2, 1)
 #' 
 
+#' @export
 DSPlanBinomial=function(N,n1,n2,Ac1,Re1, Ac2, p=seq(0,0.25,0.005), Plots=TRUE){
 #N=1000;n1=10;n2=10;Ac1=0;Re1=2;Ac2=1
 
@@ -53,6 +54,7 @@ plot(results)
 return(results)
 }
 
+#' @export
 DSPlanPoisson=function(N,n1,n2,Ac1,Re1, Ac2, p=seq(0,0.25,0.005), Plots=TRUE){
 #N=1000;n1=10;n2=10;Ac1=0;Re1=2;Ac2=1
 

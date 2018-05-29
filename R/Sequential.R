@@ -15,6 +15,7 @@
 #' SequentialBinomial(PlanDesign)
 #' 
 
+#' @export
 SequentialBinomial=function(x, Plots=TRUE){
 k1=((1-x$beta)/x$alpha)^x$h
 k2 =(x$beta/(1-x$alpha))^x$h
@@ -69,6 +70,7 @@ return(results)
 #' @author Raj Govindaraju and Jonathan Godfrey
 
 
+#' @export
 SeqDesignBinomial=function(N=NULL, AQL, alpha, LQL, beta, Plots=TRUE){
 a = log((1-beta)/alpha)
 b = log((1-alpha)/beta)
@@ -95,10 +97,12 @@ return(results)
 }
 
 
+#' @export
 print.SeqSampPlan=function(x,...){
 print(data.frame(h1=x$h1, h2=x$h2, s=x$s))
 }
 
+#' @export
 plot.SeqSampPlan=function(x,y=NULL,...){
 plot(x$k, x$accept, type="l", ylab=expression(d[k]), xlab="k", ylim=c(min(x$accept), max(x$reject)))
 par(new=TRUE)

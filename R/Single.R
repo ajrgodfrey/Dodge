@@ -23,6 +23,7 @@
 #' SSPlanPoisson(1000, 20,1)
 #' 
 
+#' @export
 SSPlanBinomial=function(N,n,Ac, p=seq(0, 0.3, .001), Plots=TRUE)
 {
 OC = pbinom(Ac, n, p)
@@ -37,6 +38,7 @@ plot(results)
 return(results)
 }
 
+#' @export
 SSPlanHyper=function(N,n,Ac, p=seq(0, 0.3, .001), Plots=TRUE)
 {
 OC = phyper(Ac, N*p, N*(1-p), n)
@@ -51,6 +53,7 @@ plot(results)
 return(results)
 }
 
+#' @export
 SSPlanPoisson=function(N, n,Ac, p=seq(0, 0.3, .001), Plots=TRUE)
 {
 OC = ppois(Ac,n*p)
@@ -89,6 +92,7 @@ return(results)
 
 
 
+#' @export
 SSPDesignBinomial =function(AQL, alpha, LQL, beta){
 nl=function(Ac, LQL, beta)
 {
@@ -120,6 +124,7 @@ n=nl(Ac, LQL, beta)
 return(data.frame(n, Ac))
 }
 
+#' @export
 SSPDesignPoisson =function(AQL, alpha, LQL, beta)
 {
 nl=function(Ac, LQL, beta)

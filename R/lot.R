@@ -18,6 +18,7 @@
 #' 
 #' LSP(1000, 0.04,0.05)
 #' 
+#' @export
 LSP=function(N, LTPD, beta, p=seq(0, 0.3, .001), Plots=TRUE)
 {
 f = 1-(beta**(1/(LTPD*N)) )

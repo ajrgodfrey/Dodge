@@ -12,6 +12,7 @@
 #' @author Jonathan Godfrey
 #' @seealso The corresponding plot method is far more interesting. See
 #' \code{\link{plot.AccSampPlan}} for example.
+#' @export
 print.AccSampPlan = function(x,...){
 print.default(x,...)
 }
@@ -41,6 +42,7 @@ print.default(x,...)
 #' Plan1 = SSPlanBinomial(1000, 20,1, Plots=FALSE)
 #' plot(Plan1)
 #' 
+#' @export
 plot.AccSampPlan = function(x, y=NULL, ...){
     one.fig <- prod(par("mfcol")) == 1
 plot(x$p, x$OC, type="l", 

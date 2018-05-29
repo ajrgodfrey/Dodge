@@ -24,6 +24,7 @@
 #' ChainBinomial(1000, 20,3)
 #' ChainPoisson(1000, 20,3)
 #' 
+#' @export
 
 ChainBinomial=function(N,n,i, p=seq(0, 0.2, .001), Plots=TRUE){
 OC =(1-p)^n+n*p*(1-p)^(n+n*i-1)
@@ -38,6 +39,7 @@ plot(results)
 return(results)
 }
 
+#' @export
 ChainPoisson=function(N, n,i, p=seq(0, 0.3, .001), Plots=TRUE)
 {
 OC = exp(-n*p)+n*p*exp(-n*p*(i+1))

@@ -18,6 +18,7 @@
 #' VSPUnknown(1000, 20,1)
 #' 
 
+#' @export
 VSPKnown=function(N, n, k, Pa=seq(0, 1, 0.001), Plots=TRUE)
 {
 zpa = qnorm(Pa)
@@ -35,6 +36,7 @@ plot(results)
 return(results)
 }
 
+#' @export
 VSPUnknown=function(N, n, k, Pa=seq(0, 1, .001), Plots=TRUE)
 {
 zpa = qnorm(Pa)
@@ -75,6 +77,8 @@ return(results)
 #' 
 #' VSPDesign(AQL=0.01, alpha=0.05, LQL=0.04, beta=0.05)
 #' 
+
+#' @export
 VSPDesign =function(AQL, alpha, LQL, beta)
 {
 zp1=qnorm(1-AQL)
