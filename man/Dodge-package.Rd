@@ -11,7 +11,7 @@ characteristics and other commonly used functions.
 }
 \details{
 \tabular{ll}{ Package: \tab Dodge\cr Type: \tab Package\cr Version: \tab
-0.8\cr Date: \tab 2013-09-18\cr License: \tab GPL\cr LazyLoad: \tab yes\cr }
+0.9\cr Date: \tab 2018-05-28\cr License: \tab GPL\cr LazyLoad: \tab yes\cr }
 }
 \references{
 Dodge
@@ -19,6 +19,6 @@ Dodge
 \author{
 Raj Govindaraju and Jonathan Godfrey
 
-Maintainer: Jonathan Godfrey <a.j.godfrey@massey.ac.nz>
+Maintainer: A. Jonathan R. Godfrey <a.j.godfrey@massey.ac.nz>
 }
 \keyword{package}
