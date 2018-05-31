@@ -29,7 +29,7 @@ SSPDesignPoisson(0.01, 0.05, 0.04, 0.05)
 }
 \references{
 Dodge, H.F. and Romig, H.G. (1959) \dQuote{Sampling Inspection
-Tables, Single and Double Sampling}, 2nd edition, John Wiley and Sons, New
+Tables, Single and Double Sampling}, Second edition, John Wiley and Sons, New
 York.
 }
 \author{

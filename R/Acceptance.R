@@ -1,4 +1,4 @@
-#' print methods for thee Dodge package
+#' print methods for the Dodge package
 #' 
 #' Adds to the base functionality for the print() command. The accompanying
 #' \code{plot} methods are more sophisticated.
@@ -17,7 +17,16 @@ print.AccSampPlan = function(x,...){
 print.default(x,...)
 }
 
+#' @export
+print.CurtSampPlan = function(x,...){
+print.default(x,...)
+}
 
+
+#' @export
+print.SeqSampPlan=function(x,...){
+print(data.frame(h1=x$h1, h2=x$h2, s=x$s))
+}
 
 
 
@@ -36,7 +45,6 @@ print.default(x,...)
 #' @param y ignored
 #' @param ... further arguments passed to or from other methods.
 #' @author Jonathan Godfrey with some assistance from Raj Govindaraju
-#' @keywords ~kwd1 ~kwd2
 #' @examples
 #' 
 #' Plan1 = SSPlanBinomial(1000, 20,1, Plots=FALSE)
@@ -72,4 +80,28 @@ if(one.fig){dev.new()}
 plot(x$p, x$ATI, type="l", 
 ylab="ATI", 
 xlab="Fraction Nonconforming p")
+}
+
+
+
+#' @export
+plot.CurtSampPlan=function(x,y=NULL,...){
+plot(x$p, x$ASN.full, type="l", ylim=c(1, x$n), ylab="ASN", col="red", lty=2)
+par(new=TRUE)
+plot(x$p, x$ASN.semi, type="l", ylim=c(1, x$n), ylab="", col="blue", lty=1)
+legend("topright", legend =c("Fully Curtailed ASN","Semi-curtailed ASN"), lty=2:1, col = c("red", "blue"))
+}
+
+
+#' @export
+plot.SeqSampPlan=function(x,y=NULL,...){
+plot(x$k, x$accept, type="l", ylab=expression(d[k]), xlab="k", ylim=c(min(x$accept), max(x$reject)))
+par(new=TRUE)
+plot(x$k, x$reject, type="l", ylab="", xlab="", ylim=c(min(x$accept), max(x$reject)))
+title("Sequential Acceptance Chart")
+axis(1, tck = 1, col = "grey", lty = "dotted")
+axis(2, tck = 1, col = "grey", lty = "dotted")
+text(median(x$k), min(x$accept), "ACCEPT")
+text(median(x$k), max(x$reject), "REJECT")
+text(median(x$k), max(x$accept), "CONTINUE")
 }

@@ -1,8 +1,9 @@
 # Dodge 0.9
 
-* Added a `NEWS.md` file to track changes to the package.
+- started use of version numbers with three components.
+* Added this `NEWS.md` file to track changes to the package.
 - added a Code of Conduct to the package.
-- changed documentation ot Roxygen style for ease of handling.
+- changed documentation to Roxygen style for ease of handling.
 - inserted the @export lines as required by CRAN.
 - added all @importFrom as needed; found in pkg.R file.
 - added the readme.md file in readiness for sending to GitHub.

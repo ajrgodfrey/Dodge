@@ -96,21 +96,3 @@ plot(results)
 return(results)
 }
 
-
-#' @export
-print.SeqSampPlan=function(x,...){
-print(data.frame(h1=x$h1, h2=x$h2, s=x$s))
-}
-
-#' @export
-plot.SeqSampPlan=function(x,y=NULL,...){
-plot(x$k, x$accept, type="l", ylab=expression(d[k]), xlab="k", ylim=c(min(x$accept), max(x$reject)))
-par(new=TRUE)
-plot(x$k, x$reject, type="l", ylab="", xlab="", ylim=c(min(x$accept), max(x$reject)))
-title("Sequential Acceptance Chart")
-axis(1, tck = 1, col = "grey", lty = "dotted")
-axis(2, tck = 1, col = "grey", lty = "dotted")
-text(median(x$k), min(x$accept), "ACCEPT")
-text(median(x$k), max(x$reject), "REJECT")
-text(median(x$k), max(x$accept), "CONTINUE")
-}

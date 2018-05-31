@@ -17,8 +17,8 @@
 #' 
 #' CurtBinomial(20,1)
 #' 
-#' @export
 
+#' @export
 CurtBinomial= function(n, Ac, p=seq(0, 0.5, .01), Plots=TRUE)
 {
 # The ASN Function for Curtailed Single
@@ -42,18 +42,4 @@ if(Plots){
 plot(results)
 }
 return(results)
-}
-
-#' @export
-
-print.CurtSampPlan = function(x,...){
-print.default(x,...)
-}
-
-#' @export
-plot.CurtSampPlan=function(x,y=NULL,...){
-plot(x$p, x$ASN.full, type="l", ylim=c(1, x$n), ylab="ASN", col="red", lty=2)
-par(new=TRUE)
-plot(x$p, x$ASN.semi, type="l", ylim=c(1, x$n), ylab="", col="blue", lty=1)
-legend("topright", legend =c("Fully Curtailed ASN","Semi-curtailed ASN"), lty=2:1, col = c("red", "blue"))
 }
