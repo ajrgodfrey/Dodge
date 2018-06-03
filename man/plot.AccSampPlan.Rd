@@ -34,5 +34,3 @@ plot(Plan1)
 \author{
 Jonathan Godfrey with some assistance from Raj Govindaraju
 }
-\keyword{~kwd1}
-\keyword{~kwd2}

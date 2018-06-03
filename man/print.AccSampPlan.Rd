@@ -4,7 +4,7 @@
 \alias{print.AccSampPlan}
 \alias{print.CurtSampPlan}
 \alias{print.SeqSampPlan}
-\title{print methods for thee Dodge package}
+\title{print methods for the Dodge package}
 \usage{
 \method{print}{AccSampPlan}(x, ...)
 }
