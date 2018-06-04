@@ -1,7 +1,17 @@
+# Dodge 0.9-2
+
+- re-submitted to CRAN
+- further streamlining of update/check processing to assist AJRG; not distributed as user specific.
+- included suggestions for DESCRIPTION file from CRAN.
+
+# Dodge 0.9-1
+
+- submitted to CRAN
+- started use of version numbers with three components.
+
 # Dodge 0.9
 
-- started use of version numbers with three components.
-* Added this `NEWS.md` file to track changes to the package.
+- Added this `NEWS.md` file to track changes to the package.
 - added a Code of Conduct to the package.
 - changed documentation to Roxygen style for ease of handling.
 - inserted the @export lines as required by CRAN.

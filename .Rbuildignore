@@ -1,3 +1,10 @@
 ^CONDUCT\.md$
 ^cran-comments\.md$
 ^revdep$
+^4CheckPackage.bat$
+^1UpdateGit.bat$
+^2PushToGitHub.bat$
+^3ViewAJRGodfrey-Dodge.url$
+^5PullFromGitHub.bat$
+^.RData$
+^.Rhistory$
