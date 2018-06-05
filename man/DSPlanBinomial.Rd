@@ -38,7 +38,7 @@ DSPlanPoisson(1000, 10, 10, 0,2, 1)
 }
 \references{
 Dodge, H.F. and Romig, H.G. (1959) \dQuote{Sampling Inspection
-Tables, Single and Double Sampling}, 2nd edition, John Wiley and Sons, New
+Tables, Single and Double Sampling}, Seconnd edition, John Wiley and Sons, New
 York.
 }
 \author{

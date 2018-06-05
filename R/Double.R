@@ -15,7 +15,7 @@
 #' @param Plots logical to request generation of the four plots
 #' @author Raj Govindaraju with minor editing by Jonathan Godfrey
 #' @references Dodge, H.F. and Romig, H.G. (1959) \dQuote{Sampling Inspection
-#' Tables, Single and Double Sampling}, 2nd edition, John Wiley and Sons, New
+#' Tables, Single and Double Sampling}, Second edition, John Wiley and Sons, New
 #' York.
 #' @examples
 #' 

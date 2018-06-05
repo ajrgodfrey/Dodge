@@ -11,7 +11,7 @@ characteristics and other commonly used functions.
 }
 \details{
 \tabular{ll}{ Package: \tab Dodge\cr Type: \tab Package\cr Version: \tab
-0.9-1\cr Date: \tab 2018-05-31\cr License: \tab GPL\cr LazyLoad: \tab yes\cr }
+0.9-2\cr Date: \tab 2018-06-29\cr License: \tab GPL\cr LazyLoad: \tab yes\cr }
 }
 \references{
 Dodge
