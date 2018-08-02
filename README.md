@@ -1,6 +1,7 @@
 # Dodge
 
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/Dodge)](https://cran.r-project.org/package=Dodge)
+[![Travis-CI Build Status](https://travis-ci.org/ajrgodfrey/Dodge.svg?branch=master)](https://travis-ci.org/ajrgodfrey/Dodge)
 
 The goal of Dodge is to implement various functions for acceptance sampling as promoted through the work of H.F. Dodge.
 

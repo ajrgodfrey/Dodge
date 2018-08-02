@@ -1,3 +1,7 @@
+# Dodge 0.9-3
+
+- added travis quality checking
+
 # Dodge 0.9-2
 
 - re-submitted to CRAN

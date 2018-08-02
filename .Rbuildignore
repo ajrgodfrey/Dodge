@@ -8,3 +8,4 @@
 ^5PullFromGitHub.bat$
 ^.RData$
 ^.Rhistory$
+^\.travis\.yml$
