@@ -13,7 +13,6 @@
 #' @references Schilling, E.G. (1978) \dQuote{A Lot Sensitive Sampling Plan for
 #' Compliance Testing and Acceptance Inspection}, \emph{Journal of Quality
 #' Technology} \bold{10}(2), pp47-51.
-#' @keywords ~kwd1 ~kwd2
 #' @examples
 #' 
 #' LSP(1000, 0.04,0.05)

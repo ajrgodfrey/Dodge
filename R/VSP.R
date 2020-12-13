@@ -11,7 +11,6 @@
 #' @param Pa fraction nonconforming
 #' @param Plots logical indicating whether the four plots are required
 #' @author Raj Govindaraju with minor editing by Jonathan Godfrey
-#' @keywords ~kwd1 ~kwd2
 #' @examples
 #' 
 #' VSPKnown(1000, 20,1)
@@ -72,7 +71,6 @@ return(results)
 #' @param LQL Limiting quality level
 #' @param beta consumers' risk
 #' @author Raj Govindaraju with minor editing by Jonathan Godfrey
-#' @keywords ~kwd1 ~kwd2
 #' @examples
 #' 
 #' VSPDesign(AQL=0.01, alpha=0.05, LQL=0.04, beta=0.05)

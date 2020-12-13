@@ -6,8 +6,7 @@
 \alias{DSPlanPoisson}
 \title{Double Sampling Plans}
 \usage{
-DSPlanBinomial(N, n1, n2, Ac1, Re1, Ac2, p = seq(0, 0.25, 0.005),
-  Plots = TRUE)
+DSPlanBinomial(N, n1, n2, Ac1, Re1, Ac2, p = seq(0, 0.25, 0.005), Plots = TRUE)
 }
 \arguments{
 \item{N}{the lot size}
