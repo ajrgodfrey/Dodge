@@ -31,5 +31,3 @@ VSPUnknown(1000, 20,1)
 \author{
 Raj Govindaraju with minor editing by Jonathan Godfrey
 }
-\keyword{~kwd1}
-\keyword{~kwd2}

@@ -26,5 +26,3 @@ VSPDesign(AQL=0.01, alpha=0.05, LQL=0.04, beta=0.05)
 \author{
 Raj Govindaraju with minor editing by Jonathan Godfrey
 }
-\keyword{~kwd1}
-\keyword{~kwd2}

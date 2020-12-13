@@ -34,5 +34,3 @@ Technology} \bold{10}(2), pp47-51.
 \author{
 Raj Govindaraju with minor editing by Jonathan Godfrey
 }
-\keyword{~kwd1}
-\keyword{~kwd2}
