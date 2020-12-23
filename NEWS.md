@@ -1,6 +1,8 @@
 # Dodge 0.9-4
 
 -replaced travis with GitHub actions
+- added use of pkgdown
+- added use of spell checking
 
 # Dodge 0.9-3
 
